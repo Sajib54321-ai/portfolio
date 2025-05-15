@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+
+.about-me {
+
+    display: flex;
+    justify-content: space-between;
+}
+.about-me ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    gap: 20px;
+
+}
+.hero {
+    
+    background-color: #221b1b;
+    padding: 50px 0;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    
+  }
+  
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-text .desc {
+    margin: 10px 0;
+  }
+  
+  .hero-text button {
+    padding: 10px 20px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+  }
+  .hero-image{
+    background-color: #ffcc00;
+    border-right: solid;
+    border-width: 5px;
+    border-color: #ffcc00;
+    display: block;
+    margin: auto;
+    
+  }
+  
+  
+  .about-image img{
+  
+    
+   
+ 
+    border-right: #ffcc00;
+    background-color: #ffcc00;
+    
+   
+    border-bottom: #ffcc00;
+    
+     
+  padding-left: 70px;
+  padding-top: 50px;
+    
+
+  }
+  .about{
+    background-color: #0f0d0d;
+  }
+  .about-text{
+    color: ivory;
+    padding-right: 40px;
+  }
+  .btn{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+    
+  }
+ .btn:hover {
+    background-color: #ffcc00;
+ }
